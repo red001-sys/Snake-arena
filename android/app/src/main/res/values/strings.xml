@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Snake Arena</string>
+    <string name="title_activity_main">Snake Arena</string>
+    <string name="package_name">com.seuname.snakearena</string>
+    <string name="custom_url_scheme">com.seuname.snakearena</string>
+</resources>
