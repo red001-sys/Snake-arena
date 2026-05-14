@@ -25,7 +25,8 @@ jobs:
           cd android/app/build/outputs/apk/release
           jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 \
             -keystore $GITHUB_WORKSPACE/snake-arena.keystore \
-            -storepass snake123 \
+            -storepass 610328Ls! \
+            -keypass 610328Ls! \
             app-release-unsigned.apk snake-arena
       - name: Upload APK
         uses: actions/upload-artifact@v4
